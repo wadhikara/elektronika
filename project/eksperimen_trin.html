@@ -55,36 +55,12 @@
             <p>Arduino ini memiliki beberapa komponen penting di dalamnya, seperti pin, mikrokontroler, dan konektor yang nanti akan dibahas lebih dalam selanjutnya. Selain itu, Arduino juga sudah menggunakan bahasa pemrograman Arduino Language yang sedikit mirip dengan bahasa pemrograman C++. Biasanya Arduino digunakan untuk mengembangkan beberapa sistem seperti pengatur suhu, sensor untuk bidang agrikultur, pengendali peralatan pintar, dan masih banyak lagi.</p>
             <br>
             <p>Disini kami diminta oleh Dosen Elektronika kami untuk mencoba bereksperimen dengan Proteus di device kami. Saya mencoba untuk membuat rangkaian sesuai dengan PDF Eksperimen TRIN. Komponen yang digunakan di Proteus untuk eksperimen kali ini adalah Battery, Resistor, Sensor Arus dan Sensor Tegangan.</p>
-            <div class="vid">
-                <video src="eksperimen_trin.mp4" width="650px" controls autoplay></video>
+            <div class="img">
+                <img src="eks trin final.png">
             </div><br><br><br>
             <p>Disini saya menyambungkan Arduino Uno dengan sambungan kabel 2,3,4,5,11, dan 12 ke sambungan kabel LCD 4,6,11,12,13, dan 14. Saya juga menggunakan sensor bertipe ACS712ELCTR-20A-T dan menyambungkan kabel VIOUT pada sensor ke PC0 Arduino. Baterai yang digunakan memuat tegangan 13,5 V dengan resistor 1k</p>
-            <p>Dan ini merupakan source code yang saya gunakan:</p>
-            <p>
-              // include the library code:
-                <br>#include LiquidCrystalh
-                
-                <br>// initialize the library by associating any needed LCD interface pin
-               <br> // with the arduino pin number it is connected to
-              <br>  const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
-              <br>  LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-                
-              <br><br>  void setup() {
-              <br>    // set up the LCD's number of columns and rows:
-                  <br>lcd.begin(16, 2);<br>
-                 <br> // Print a message to the LCD. 
-                <br>  lcd.print("Hello world");
-               <br> }
-                
-             <br>   void loop() {
-                 <br> // Turn off the display:
-        <br>          lcd.noDisplay();
-            <br>      delay(500);
-                <br>  // Turn on the display:
-      <br>            lcd.display();
-          <br>        delay(500);
-              <br>  }</p>
-            <br><br><br><br>
+            <br><br><br>
+            <p>223443025.</p>
             <div class="main-btn">
                 <a href="slider.html" class="btn">Project</a>
                 <a href="../index.html" class="btn">Home</a>
